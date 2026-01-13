@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="무료 아이콘을 검색하고 다운로드하세요. 다양한 무료 아이콘 라이브러리에서 원하는 아이콘을 찾아보세요.">
+    <meta name="keywords" content="아이콘, 무료 아이콘, 아이콘 검색, 아이콘 다운로드, free icons">
+    <title>아이콘 검색 - 무료 아이콘 찾아서 다운로드</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>🔍 아이콘 검색</h1>
+            <p class="subtitle">무료 아이콘을 검색하고 다운로드하세요</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="search-section">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="아이콘 검색... (예: home, user, email)" />
+                <button id="searchBtn">검색</button>
+            </div>
+        </section>
+
+        <section class="sources-section">
+            <h2>아이콘 소스</h2>
+            <div class="sources-grid">
+                <a href="https://fontawesome.com/icons" target="_blank" rel="noopener" class="source-card">
+                    <h3>Font Awesome</h3>
+                    <p>가장 인기있는 무료 아이콘 라이브러리</p>
+                </a>
+                <a href="https://www.flaticon.com/" target="_blank" rel="noopener" class="source-card">
+                    <h3>Flaticon</h3>
+                    <p>수백만 개의 무료 아이콘과 스티커</p>
+                </a>
+                <a href="https://icons8.com/" target="_blank" rel="noopener" class="source-card">
+                    <h3>Icons8</h3>
+                    <p>다양한 스타일의 무료 아이콘</p>
+                </a>
+                <a href="https://www.iconfinder.com/" target="_blank" rel="noopener" class="source-card">
+                    <h3>Iconfinder</h3>
+                    <p>프리미엄 및 무료 아이콘 검색</p>
+                </a>
+                <a href="https://material.io/resources/icons/" target="_blank" rel="noopener" class="source-card">
+                    <h3>Material Icons</h3>
+                    <p>Google의 Material Design 아이콘</p>
+                </a>
+                <a href="https://feathericons.com/" target="_blank" rel="noopener" class="source-card">
+                    <h3>Feather Icons</h3>
+                    <p>심플하고 아름다운 오픈소스 아이콘</p>
+                </a>
+                <a href="https://iconmonstr.com/" target="_blank" rel="noopener" class="source-card">
+                    <h3>Iconmonstr</h3>
+                    <p>4,500+ 무료 아이콘 SVG, PNG</p>
+                </a>
+                <a href="https://heroicons.com/" target="_blank" rel="noopener" class="source-card">
+                    <h3>Hero Icons</h3>
+                    <p>Tailwind CSS 제작자의 무료 아이콘</p>
+                </a>
+                <a href="https://tablericons.com/" target="_blank" rel="noopener" class="source-card">
+                    <h3>Tabler Icons</h3>
+                    <p>5,000+ 무료 오픈소스 아이콘</p>
+                </a>
+                <a href="https://phosphoricons.com/" target="_blank" rel="noopener" class="source-card">
+                    <h3>Phosphor Icons</h3>
+                    <p>유연한 아이콘 패밀리</p>
+                </a>
+                <a href="https://lucide.dev/" target="_blank" rel="noopener" class="source-card">
+                    <h3>Lucide</h3>
+                    <p>아름다운 오픈소스 아이콘</p>
+                </a>
+                <a href="https://remixicon.com/" target="_blank" rel="noopener" class="source-card">
+                    <h3>Remix Icon</h3>
+                    <p>디자이너와 개발자를 위한 아이콘</p>
+                </a>
+            </div>
+        </section>
+
+        <section class="results-section" id="resultsSection" style="display: none;">
+            <h2>검색 결과</h2>
+            <div id="resultsContainer" class="results-grid"></div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 아이콘 검색. 모든 아이콘은 각 제공자의 라이선스를 따릅니다.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
